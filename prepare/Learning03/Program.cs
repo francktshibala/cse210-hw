@@ -7,9 +7,10 @@ using System;
 // methods: many methods should be public so they can access the private member variables
 // how to declare public and private methods
 
-// getters" and "setters help to access private variables
+// getters" and "setters help to set and get values to  private variables
 
-// contructors are special methods (a no-argument constructor / an argument constructor )
+// contructors set an initial function of a classare special methods 
+//(a no-argument constructor set default values/ an argument constructor )
 //
 
 
