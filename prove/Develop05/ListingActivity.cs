@@ -19,7 +19,7 @@ class ListingActivity : Activity
         Random random = new Random();
         string prompt = _prompts[random.Next(_prompts.Count)];
         Console.WriteLine(prompt);
-        ShowCountDown(5); // Give the user time to think
+        ShowCountDown(5); 
         List<string> userInputList = GetListFromUser();
         Console.WriteLine($"You listed {userInputList.Count} items.");
         DisplayEndingMessage();

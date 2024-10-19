@@ -6,7 +6,7 @@ class WritingAssignment : Assignment
 
     // Constructor
     public WritingAssignment(string studentName, string topic, string title)
-        : base(studentName, topic)  // Call base class constructor
+        : base(studentName, topic)  
     {
         _title = title;
     }
@@ -14,6 +14,6 @@ class WritingAssignment : Assignment
     // Method to get writing information
     public string GetWritingInformation()
     {
-        return $"{_title} by {GetSummary().Split('-')[0].Trim()}"; // Accessing student's name via the GetSummary method
+        return $"{_title} by {GetSummary().Split('-')[0].Trim()}"; 
     }
 }

@@ -57,5 +57,5 @@ class Activity
         }
     }
 
-    public virtual void Run() { } // Base class version, to be overridden by derived classes.
+    public virtual void Run() { } 
 }

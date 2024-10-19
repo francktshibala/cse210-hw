@@ -7,7 +7,7 @@ class BreathingActivity : Activity
     public override void Run()
     {
         DisplayStartingMessage();
-        for (int i = 0; i < _duration / 6; i++) // Alternate between "breathe in" and "breathe out"
+        for (int i = 0; i < _duration / 6; i++) 
         {
             Console.WriteLine("Breathe in...");
             ShowCountDown(3);
